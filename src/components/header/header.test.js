@@ -7,7 +7,7 @@ describe('given the header component', () => {
         //arrange
         render(<Header />);
         //act
-        const title = screen.getByRole('heading', {name: /roman converter/i});
+        const title = screen.getByRole('heading', { name: /roman converter/i });
         //assert
         expect(title).toBeInTheDocument();
     });

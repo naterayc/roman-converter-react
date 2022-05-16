@@ -5,8 +5,8 @@ import Header from "./components/header/header";
 const App = () => {
   return (
     <div>
-     <Header />
-     <Converter />
+      <Header />
+      <Converter />
     </div>
   );
 }

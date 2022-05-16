@@ -76,7 +76,7 @@ describe('given the form component, when the user submit the form', () => {
         expect(input.value).toBe('25');
         expect(output).toBeInTheDocument();
     });
-    
+
     it('for the entry 4200 it should renders an error message', () => {
         //arrange
         render(<Form />);

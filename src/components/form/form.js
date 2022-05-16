@@ -10,7 +10,7 @@ const Form = () => {
     const handleChange = (e) => {
         setArabic(e.target.value);
     }
-    
+
     const convertNumber = (e) => {
         e.preventDefault();
         try {
