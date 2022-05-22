@@ -2,9 +2,9 @@ import React from "react";
 import './header.css';
 
 const Header = () => (
-    <div className="header">
-        <h1>Roman Converter</h1>
-    </div>
+    <header>
+        <h1 className="headerT">Roman Converter</h1>
+    </header>
 );
 
 export default Header;

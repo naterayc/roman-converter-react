@@ -1,0 +1,76 @@
+.converter-form {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+    border: solid 4px #c4dad445;
+    border-radius: 15px;
+    position:relative;
+}
+
+.converter-input {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    width: 70%;
+    font-size: 1.5em;
+    border: solid 2px #c4dad445;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.2em 0;
+    color: #024802;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none !important;
+    -moz-appearance:none !important;
+}
+
+.converter-input::placeholder {
+    color: #024802;
+}
+
+.converter-input:focus-visible { 
+    outline: #c4dad445;
+}
+
+.converter-submit-btn {
+    margin: 2em auto 0;
+    display: block;
+    padding: 8px 25px;
+    font-size: 1em;
+    background-color: #097409;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border: solid 1px #097409;
+}
+
+.converter-submit-btn:hover {
+    background-color: #024802;
+    color: #fff;
+    border: solid 1px #024802;
+}
+
+.error-msg {
+    text-align: center;
+    color: #fb7f11;
+    position: absolute;
+    top: 1em;
+    margin: 0;
+    width: 92%;
+}
+
+.result-msg {
+    text-align: center;
+    font-size: 1.8em;
+    color: #024802;
+    width: 50%;
+    margin: .5em auto;
+    padding: 1em 0;
+    background-color: #c4dad445;
+    border-radius: 10px;
+}

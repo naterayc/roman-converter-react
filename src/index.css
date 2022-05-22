@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #434343;
+  height: 100vh;
+  background-image: url('./assets/img/A1191-Elements-of-ancient-roman-architecture-Coulmns-Image-2.png');
+  background-size:cover;
 }
 
 code {

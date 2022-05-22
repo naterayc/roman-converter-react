@@ -1,4 +1,8 @@
-.header{
+header{
     padding: 2em;
-    background-color: aliceblue;
+    background-color: #c4dad445;
+}
+
+.headerT{
+    margin: 0;
 }
